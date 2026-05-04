@@ -1,47 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>STM Graphics</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial;
-      background: #0d0d0d;
-      color: white;
-      text-align: center;
-    }
-    header {
-      padding: 40px;
-      font-size: 28px;
-      font-weight: bold;
-    }
-    .btn {
-      background: gold;
-      padding: 12px 20px;
-      color: black;
-      text-decoration: none;
-      border-radius: 6px;
-    }
-    .section {
-      padding: 30px;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>STM Graphics</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0b0b;
+  color: #fff;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 32px;
+}
+
+.hero p {
+  color: #ccc;
+  margin: 10px 0 20px;
+}
+
+.btn {
+  background: gold;
+  color: black;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* WhatsApp Button */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 14px;
+}
+</style>
+
 </head>
 <body>
 
 <header>STM GRAPHICS</header>
 
-<div class="section">
-  <h2>We Design Premium Graphics</h2>
-  <p>Flyers, Logos, Ads & Branding</p>
-  <a class="btn" href="https://wa.me/233246254009">Order Now</a>
+<div class="hero">
+  <h1>Premium Graphic Design That Sells</h1>
+  <p>Flyers • Logos • Ads • Branding</p>
+  <a class="btn" href="https://wa.me/233246254009">Start Your Design</a>
 </div>
 
 <div class="section">
   <h2>Our Work</h2>
-  <p>Coming soon...</p>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/300x300">
+    <img src="https://via.placeholder.com/300x300">
+    <img src="https://via.placeholder.com/300x300">
+    <img src="https://via.placeholder.com/300x300">
+  </div>
 </div>
+
+<div class="section">
+  <h2>Why Choose Us</h2>
+  <p>✔ Fast Delivery</p>
+  <p>✔ High Quality Designs</p>
+  <p>✔ Affordable Pricing</p>
+</div>
+
+<div class="footer">
+  © 2026 STM Graphics | All Rights Reserved
+</div>
+
+<a class="whatsapp" href="https://wa.me/233246254009">Chat on WhatsApp</a>
 
 </body>
 </html>
